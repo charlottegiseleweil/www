@@ -21,8 +21,7 @@ h3 {
 }
 
 h4 {
-	font-size: 16px;
-	text-align: left;
+	font-size: 20px;
 }
 
 .btn {
@@ -30,8 +29,39 @@ h4 {
     background-color: #fff;
 }
 
+.btn:hover  {
+    background-color: #7ca8ef;
+}
+
+.btn-in-card {
+    background-color: lightgrey;
+}
+
 .card-title {
 	margin-top: 0px;
+}
+.card-panel {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 24px;
+	padding-left: 24px;
+
+}
+
+.card-panel img {
+	display: none;
+}
+
+.card-panel.expanded img {
+	display: initial;
+}
+
+.card-panel .row {
+	display: none;
+}
+
+.card-panel.expanded .row {
+	display: initial;
 }
 
 .card-panel.expanded {
@@ -40,6 +70,7 @@ h4 {
 	right: 64px;
 	top: 64px;
 	bottom: 64px;
+	overflow: auto;
 }
 
 .icon-row {
