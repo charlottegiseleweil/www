@@ -33,6 +33,14 @@ h4 {
     background-color: #7ca8ef;
 }
 
+.card-panel:hover{
+    background-color: #7ca8ef;
+}
+
+.card-panel.expanded:hover {
+	background-color: white;
+}
+
 .btn-in-card {
     background-color: lightgrey;
 }

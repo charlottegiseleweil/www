@@ -216,134 +216,133 @@
    <!-- Materialize CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
   <style>
-  
-  /* Move content so that side-nav doesn't hide it */
-  header, main, footer {
-    padding-left: 320px; 
-  }
-  
-  @media only screen and (max-width : 992px) {
+    
+    /* Move content so that side-nav doesn't hide it */
     header, main, footer {
-      padding-left: 0;
+      padding-left: 320px; 
     }
-  }
-  
-  @media print {    
-  	header, main, footer {
-    	padding-left: 0;
+    
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
     }
-  	.side-nav {
-  		display: none;
-  	}
-  	.container {
-  		width: 100%;
-  	}
-  }
-  
-  .side-nav {
-    width: 320px;
-    border-top: none;
-  }
-  
-  /* Containers a bit larger than default 70% */
-  .container {
-    width: 75%;
-  }
-  
-  /* Make nested collapsibles look nice in side-nav */
-  .side-nav .collapsible-body {
-    padding: 0;
-  }
-  
-  /* Make images' width be slightly smaller than text */
-  main .figure {
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  main img {
-    width: 100%;
-  }
-  
-  /* Make text look prettier */
-  p {
-    text-align: justify;
-  }
-  
-  /* Make anchors to titles look better by changing margin-top to padding-top */
-  /* Reduce title fonts by ~35% each to look less jarring */
-  main h1 { margin-top: 0; padding-top: 2.10rem; font-size: 40px; }
-  main h2 { margin-top: 0; padding-top: 1.78rem; font-size: 32px; } 
-  main h3 { margin-top: 0; padding-top: 1.46rem; font-size: 28px; }
-  main h4 { font-size: 22px; }
-  
-  
-  /* Make avatar better */
-  .side-nav img.logo, .side-nav img.circle.avatar {
-    height: 100px;
-    width: 100px;
-  }
-  
-  .side-nav img.logo, .side-nav img.circle.avatar ~ img.circle.avatar {
-    margin-right: 32px;
-  }
-  
-  .side-nav a.inline {
-    display: inline-block;
-  }
-  
-  
-  /* Bottom divider */
-  .divider.bottom {
-    margin: 0 0 8px 0;
-  }
-  
-  /* Fix navbar collapsible elements padding */
-  #TOC > ul > li > a { padding-left: 32px; }
-  #TOC > ul > li > ul > li > a { padding-left: 48px; }
-  #TOC > ul > li > ul > li > ul li a { padding-left: 64px; }
-  
-  h1.title {
-   text-align: center;
-   font-size: 48px;
-  }
-  
-  ul.side-nav li a.title {
-    font-weight: 900;
-    font-size: 16px;
-  }
-  
-  /* Main title */
-  h1.title.first {
-    font-size: 44px;
-    margin-bottom: 0;
-  }
-  
-  h1.title.second {
-    font-size: 36px;
-    font-style: italic;
-    padding-top: 0;
-  }
-  
-  /* Contaxt icons in the sidebar */
-  .userView a.inline-icon {
-    display: inline-block;
-    height: auto;
-    padding: 0;
-    margin-left: 16px;
-  }
-  
-  .userView a.inline-icon i {
-    font-size: 16px;
-    vertical-align: text-bottom;
-  }
-  
-  /* Fix margin of section numbers */
-  .toc-section-number {
-    margin-right: 8px;
-  }
-  
-  </style>
+    
+    @media print {    
+      header, main, footer {
+        padding-left: 0;
+      }
+      .side-nav {
+        display: none;
+      }
+      .container {
+        width: 100%;
+      }
+    }
+    
+    .side-nav {
+      width: 320px;
+      border-top: none;
+    }
+    
+    /* Containers a bit larger than default 70% */
+    .container {
+      width: 75%;
+    }
+    
+    /* Make nested collapsibles look nice in side-nav */
+    .side-nav .collapsible-body {
+      padding: 0;
+    }
+    
+    /* Make images' width be slightly smaller than text */
+    main .figure {
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    main img {
+      width: 100%;
+    }
+    
+    /* Make text look prettier */
+    p {
+      text-align: justify;
+    }
+    
+    /* Make anchors to titles look better by changing margin-top to padding-top */
+    /* Reduce title fonts by ~35% each to look less jarring */
+    main h1 { margin-top: 0; padding-top: 2.10rem; font-size: 40px; }
+    main h2 { margin-top: 0; padding-top: 1.78rem; font-size: 32px; } 
+    main h3 { margin-top: 0; padding-top: 1.46rem; font-size: 28px; }
+    main h4 { font-size: 22px; }
+    
+    
+    /* Make avatar better */
+    .side-nav img.logo, .side-nav img.circle.avatar {
+      height: 120px;
+      width: 150px;
+    }
+    
+    
+    .side-nav a.inline {
+      display: inline-block;
+    }
+    
+    
+    /* Bottom divider */
+    .divider.bottom {
+      margin: 0 0 8px 0;
+    }
+    
+    /* Fix navbar collapsible elements padding */
+    #TOC > ul > li > a { padding-left: 32px; }
+    #TOC > ul > li > ul > li > a { padding-left: 48px; }
+    #TOC > ul > li > ul > li > ul li a { padding-left: 64px; }
+    
+    h1.title {
+     text-align: center;
+     font-size: 48px;
+    }
+    
+    ul.side-nav li a.title {
+      font-weight: 900;
+      font-size: 16px;
+    }
+    
+    /* Main title */
+    h1.title.first {
+      font-size: 44px;
+      margin-bottom: 0;
+      font-weight: bolder;
+    }
+    
+    h1.title.second {
+      font-size: 36px;
+      font-style: italic;
+      padding-top: 0;
+      font-weight: 100;
+    }
+    
+    /* Contaxt icons in the sidebar */
+    .userView a.inline-icon {
+      display: inline-block;
+      height: auto;
+      padding: 0;
+      margin-left: 16px;
+    }
+    
+    .userView a.inline-icon i {
+      font-size: 16px;
+      vertical-align: text-bottom;
+    }
+    
+    /* Fix margin of section numbers */
+    .toc-section-number {
+      margin-right: 8px;
+    }
+    
+    </style>
 </head>
 <body>
 <main>
@@ -411,17 +410,19 @@
 </ul></li>
 <li><a href="#summary"><span class="toc-section-number">3.5</span> Summary</a><ul>
 <li><a href="#key-take-aways"><span class="toc-section-number">3.5.1</span> Key take-aways</a></li>
-<li><a href="#sec:resou"><span class="toc-section-number">3.5.2</span> Resources</a></li>
+<li><a href="#sec:table"><span class="toc-section-number">3.5.2</span> Summary table for specific display needs</a></li>
+<li><a href="#sec:resou"><span class="toc-section-number">3.5.3</span> Resources</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#conclusion-next-steps"><span class="toc-section-number">4</span> Conclusion &amp; Next Steps</a><ul>
-<li><a href="#sec:table"><span class="toc-section-number">4.1</span> Summary table for specific display needs</a></li>
-<li><a href="#on-standardizing-approaches-to-communicate-natural-capital-results"><span class="toc-section-number">4.2</span> On standardizing approaches to communicate natural capital results</a></li>
-<li><a href="#engaging-a-broader-audience-into-major-decisions-on-natural-capital-sustainable-management"><span class="toc-section-number">4.3</span> Engaging a broader audience into major decisions on natural capital sustainable management</a></li>
+<li><a href="#conclusion"><span class="toc-section-number">4</span> Conclusion</a><ul>
+<li><a href="#on-standardizing-approaches-to-communicate-natural-capital-results"><span class="toc-section-number">4.1</span> On standardizing approaches to communicate natural capital results</a></li>
+<li><a href="#engaging-a-broader-audience-into-major-decisions-on-natural-capital-sustainable-management"><span class="toc-section-number">4.2</span> Engaging a broader audience into major decisions on natural capital sustainable management</a></li>
 </ul></li>
 <li><a href="#bibliography">Bibliography</a></li>
 </ul>
 </div>
+<p><em>This document aims to support ES analysts striving to communicate effectively natural capital information. It proposes approaches to ES visualizations and summaries in the form of a toolbox tailored to the specific needs of ES analysts, supported by fundamental and applied data visualization guidelines. This toolbox was developed as part of a <a href="http://www.charlotteweil.fr/masterthesis">master thesis</a>, and contains subset of its chapters.</em></p>
+
 <h1 id="acronyms-terminology" class="unnumbered">Acronyms &amp; Terminology</h1>
 <p><strong>Important concepts &amp; terminology</strong><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
 <ul>
@@ -478,8 +479,7 @@
 </blockquote>
 <h2 id="background-motivation"><span class="header-section-number">1.1</span> Background &amp; motivation</h2>
 <h3 id="ecosystem-services-natural-capital-assessments"><span class="header-section-number">1.1.1</span> Ecosystem services &amp; natural capital assessments</h3>
-<p>Ecosystem services (ES) are essential gifts from nature making life possible and worthwhile. They rely on complex interactions of many forms of natural capital.</p>
-<p>However, about 60% of the ecosystem services are being degraded<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> or are not used sustainably. As the stock of natural capital decreases, due to clear and increasing human alteration <span class="citation">(Vitousek et al. 1997)</span>, citizens and scholars are increasingly highlighting the urgency of taking action to protect it. To do so, efficient policy design requires a strong (often quantitative) understanding of ecosystem services functioning.</p>
+<p>Ecosystem services (ES) are essential gifts from nature making life possible and worthwhile. They rely on complex interactions of many forms of natural capital. However, about 60% of the ecosystem services are being degraded<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> or are not used sustainably. As the stock of natural capital decreases, due to clear and increasing human alteration <span class="citation">(Vitousek et al. 1997)</span>, citizens and scholars are increasingly highlighting the urgency of taking action to protect it. To do so, efficient policy design requires a strong (often quantitative) understanding of ecosystem services functioning.</p>
 <p>Such an understanding can be achieved through natural capital assessments, which locate the sources of ecosystem services, provide indications for sustainable management, identify and prioritize conservation activities, help build understanding of synergies and trade-offs between the needs and impacts of different projects or sectors, support policy design, and contribute to climate resilience and adaptation planning. These assessments document ecosystem services at different levels, from local ones such as pest control, to regional ones like flood control, to global services such as climate stabilization. They reveal interdependencies between services, critical points and timescales for degradation and recovery <span class="citation">(Daily et al. 2000)</span>.</p>
 <p>Natural capital assessements aim to reveal the specific benefits provided by nature, in order to develop approaches to manage environmental assets sustainably and make it easier for nature to become a primary consideration in all decisions</p>
 <h3 id="communicating-natural-capital-information"><span class="header-section-number">1.1.2</span> Communicating natural capital information</h3>
@@ -638,7 +638,7 @@
 <p>An effective alternative to coercing all the data in a single plot (risking overplotting) is displaying small multiples. The concept is to replicate the same simple graph structure (in terms of axis, shape and scale), for many datasets, ordered logically. The cognitive process of understanding the graph is undertaken only once, and the understanding then is replicated while scanning all other multiples. This strategy is very efficient in many cases for comparison and broadly used. Referred by the data visualization expert <span class="citation">Tufte (1983)</span>, as “multivariate and data bountiful”, they enforces comparisons of alternatives, differences and changes. This displaying strategy has also been called trellis chart, lattice chart, grid chart, or panel chart. It can be applied to many types of graphs, or maps. Other examples of the small multiple strategy and variants of it can be found in figures <span class="ref">fig:arkemaa</span>a, <span class="ref">fig:coastal_sm</span>b, <span class="ref">fig:addl</span>a.</p>
 <h3 id="sec:rdim"><span class="header-section-number">3.1.6</span> Reduce dimensions</h3>
 <p>Another approach to reduce cognitive complexity of multi-dimensional data, is to reduce the dimensions in some coherent way. For example, the <strong>principal components analysis</strong> (PCA) can be conducted to reduce the number of variables by combining the correlated ones <span class="citation">(Hotelling 1933)</span>. Similarly, the <strong>choice modeler approach</strong> aims to evaluate multiple decision variants, in a very large decision space. The concept is to identify criteria that do not influence the output (here, the decision option ranking), and remove these dimensions, to simplify without losing correctness <span class="citation">(Jankowski et al. 2008)</span>.</p>
-<p>In the same vein, multiple dimensions can be summarized by creating an <strong>aggregated metric</strong>, e.g. an indication of a lake recreation value would combine variables such as water quality, lake size, boat options (Ryan Noe, personal communication).</p>
+<p>In the same vein, multiple dimensions can be summarized by creating an <strong>aggregated metric</strong>, e.g. an indication of a lake recreation value would combine variables such as water quality, lake size, boat options (Ryan Noe, personal communication). The basic concept to get this aggregated value is to sum each dimension once all have been put into comparable units and weighted according to preference.</p>
 <h3 id="sec:multiplelinked"><span class="header-section-number">3.1.7</span> Multiple linked views</h3>
 <div class="figure">
 <img src="../images/arkemaa.png" alt="Figure 8: Examples of combining static plots: (a) the bar plots display the area of habitat in each risk category (low, medium, high) per planning region (1 to 9), by Arkema et al. (2014). (b) Dense figure using a story-telling approach to present scenarios. It combines bar plots, maps and the small multiples approach. This figure is self-explanatory, and by including a few sentences, it replaces several paragraphs (Arkema et al. 2015)" id="fig:arkemaa" style="width:100.0%" />
@@ -647,7 +647,7 @@
 <p>Several options to display multi-variate data were discussed above. However they all realistically apply to a limited number of variables. As dimensions of the data increase, it is often interesting to show several linked graphs of the same dataset to convey the complex information. This solution gives different perspectives to the viewer. In the case of a static display, the graphs are connected by matching color coding or other corresponding parameters, as in figures <span class="ref">fig:hadka</span>, <span class="ref">fig:arkemaa</span>a, <span class="ref">fig:arkemaa</span>b and <span class="ref">fig:addl</span>c.</p>
 <p>Furthermore, dynamic displays allow improvement by adding brushing and linking features (see <span class="ref">sec:interactivefeatures</span>), examples of interactive dashboards with multiple linked views include <em>(click on the title to be directed to the online version)</em>:</p>
 <ul>
-<li><a href="https://phawthorne.g.ithub.io/mc-vis/">The Middle Cedar visualization</a> (figure <span class="ref">fig:Peter</span>)</li>
+<li><a href="https://phawthorne.github.io/mc-vis/">The Middle Cedar visualization</a> (figure <span class="ref">fig:Peter</span>)</li>
 <li><a href="http://nascience.us/roi/public/">The Conservation ROI Dashboard</a> (figure <span class="ref">fig:ConservationROIDashboard</span>)</li>
 <li><a href="http://vulpes.sefs.uw.edu/ttapp/hra-dash.php">Habitat Risk Assessment Dashboard</a>. This interactive web application displays user’s InVEST output workspace, and was developped in R and Javascript.</li>
 <li><a href="https://charlottegiseleweil.github.io/webviz_natcap/">Tana Water Fund Spatial Optimization Results Dashboard (prototype)</a> (figure <span class="ref">fig:webapp_full</span>)</li>
@@ -896,107 +896,7 @@
 <p>Overall, combining multiple linked displays seems to be necessary as complexity and number of dimensions increase, as <span class="citation">K. Potter et al. (2009)</span> argues in the context of gaining insight on distribution of spatio-temporal simulation results, as well as the associated uncertainty. Arranging many views is also relevant to facilitate comparisons <span class="citation">(Buja et al. 1996)</span>. Anecdotal experience suggests that some of the most impactful visualizations currently used combine interactive features and multiple linked views to deliver broad information in an organized and straight-forward way, as exemplified by The Middle Cedar Visualization in figure <span class="ref">fig:Peter</span> <span class="citation">(Hawthorne 2016)</span>.</p>
 <p>The examples, guidelines and suggestions gathered above aim to support creation of effective visualizations. Nevertheless, the main take-away is that graphs are here to support conveying the data’s message; i.e. visualizations should always be tailored to the specific need and dataset. The final visualization needs to be adapted to fit the document type and format, the audience addressed and will also depend on the functionalities of the charting tool used.</p>
 <p>On the whole, each visualization is very <strong>context specific</strong>, therefore there is no perfect solution adapted to every case. An appropriate display must be selected or designed according to the intended goal (i.e. message to convey), the audience and the available resources (in terms of time, expertise, tools, presention medium and dataset).</p>
-<h3 id="sec:resou"><span class="header-section-number">3.5.2</span> Resources</h3>
-<h4 id="examples-and-inspiration" class="unnumbered">Examples and inspiration</h4>
-<ul>
-<li><a href="http://flowingdata.com/">Flowing data: General data visualization ideas in blog format</a></li>
-<li><a href="http://msp.naturalcapitalproject.org/msp_concierge_master/">The Gallery of the Marine Planning Concierge Tool gathers great work on marine ES</a>. These include <a href="http://www.geointerest.frih.org/NatCap/">the Mapping portal for the Belize project by Gregg Verutes</a> and <a href="http://marineapps.naturalcapitalproject.org/bahamas/">a similar map web viewer from the same author, for coastal hazard model results in the Bahamas</a></li>
-<li><a href="http://www.myanmarnaturalcapital.org/en">Myanmar Natural Capital: a storytelling approach for a project involving multiple ecosystem services</a>. The tools used here are D3.js, leaflet, openStreetMaps, Google Maps and photoshop.</li>
-<li><a href="http://coastalresilience.org/tools/apps/#apps_id%7Cassess-risk%7C1">The Nature Conservancy also developed a visualization platform, gathering a suite of web applications based on maps</a>, aiming to convey and/or simplify ecological concepts, assess risk, identify and compare different solutions and scenarios. For example, <a href="http://maps.coastalresilience.org/gulfmex/">the coastal resilience interactive map in the Gulf of Mexico</a></li>
-<li><a href="http://newagbioeconomy.umn.edu/collaborativegeodesign/">Collaborative GeoDesign, a web application allowing users to test land cover changes on the landscape, and informs on the expected corresponding impact on ES metrics</a></li>
-<li><a href="http://preview.weather.gov/edd/">Weather forecast: the NWS enhanced Data Display</a><br />
-</li>
-</ul>
-<div class="figure">
-<img src="../images/addl.png" alt="Figure 20: Additional examples (a) To compare 3 ES metrics between 4 scenarios, Arkema et al. (2015) combines small multiples of objective score maps, with summary statistics and bar plots. (b) Change map displaying the amount of additional sediment export (in percentage) comparing a future scenario with the current baseline one (Mandle et al. 2016). (c) On a static display, Nelson et al. (2008)’s strategy consists in displaying only the extreme points of the trade-off curve. (d) Change in services for all scenarios and iterations relative to current management Arkema et al. (2015)" id="fig:addl" />
-<p class="caption">Figure 20: Additional examples (a) To compare 3 ES metrics between 4 scenarios, <span class="citation">Arkema et al. (2015)</span> combines small multiples of objective score maps, with summary statistics and bar plots. (b) Change map displaying the amount of additional sediment export (in percentage) comparing a future scenario with the current baseline one <span class="citation">(Mandle et al. 2016)</span>. (c) On a static display, <span class="citation">Nelson et al. (2008)</span>’s strategy consists in displaying only the extreme points of the trade-off curve. (d) Change in services for all scenarios and iterations relative to current management <span class="citation">Arkema et al. (2015)</span></p>
-</div>
-<div class="figure">
-<img src="../images/peter.png" alt="Figure 21: The Middle Cedar visualization is an interactive webapp, developed by Hawthorne (2016), who combined a scatterplot, a map, a pie chart and summary statistics in a single dashboard. It allows users to click on each point of the trade-off curve, and the corresponding land cover map will be displayed. Additionally, summary metrics and a pie chart provide information relative to the scenario chosen upon click (Hawthorne 2016)" id="fig:Peter" style="width:70.0%" />
-<p class="caption">Figure 21: <a href="https://phawthorne.g.ithub.io/mc-vis/">The Middle Cedar visualization</a> is an interactive webapp, developed by <span class="citation">Hawthorne (2016)</span>, who combined a scatterplot, a map, a pie chart and summary statistics in a single dashboard. It allows users to click on each point of the trade-off curve, and the corresponding land cover map will be displayed. Additionally, summary metrics and a pie chart provide information relative to the scenario chosen upon click <span class="citation">(Hawthorne 2016)</span></p>
-</div>
-<div class="figure">
-<img src="../images/consdash.png" alt="Figure 22: Extract of the Conservation ROI Dashboard, gathering and comparing ROI projects across the US" id="fig:ConservationROIDashboard" />
-<p class="caption">Figure 22: Extract of the <a href="http://nascience.us/roi/public/">Conservation ROI Dashboard</a>, gathering and comparing ROI projects across the US</p>
-</div>
-<div class="figure">
-<img src="../images/webapp/full.png" alt="Figure 23: The Tana Water Fund interactive dashboard allows visualization of tradeoffs between objectives, comparison of scenarios and assessment of uncertainty. The current version is a prototype laying out the concept for a more generic tool" id="fig:webapp_full" />
-<p class="caption">Figure 23: <a href="https://charlottegiseleweil.github.io/webviz_natcap/">The Tana Water Fund interactive dashboard</a> allows visualization of tradeoffs between objectives, comparison of scenarios and assessment of uncertainty. The current version is a prototype laying out the concept for a more generic tool</p>
-</div>
-<div class="figure">
-<img src="../images/Fig1.png" alt="Figure 24: Land cover in Pu‘u Wa‘awa‘a under different restoration and climate scenarios. The purple contours on the current land cover map outline the enclosure areas corresponding to the partial restoration scenario. The maps on top correspond to the evolution of land cover, under the current climate for the partial and full restoration scenarios. The maps underneath correspond to the evolution of the land cover, under the RCP 8.5 future climate projection for the partial and full restoration scenarios. (figure by author in Wada et al. (2017, in review))" id="fig:hawaii1" style="width:80.0%" />
-<p class="caption">Figure 24: Land cover in Pu‘u Wa‘awa‘a under different restoration and climate scenarios. The purple contours on the current land cover map outline the enclosure areas corresponding to the partial restoration scenario. The maps on top correspond to the evolution of land cover, under the current climate for the partial and full restoration scenarios. The maps underneath correspond to the evolution of the land cover, under the RCP 8.5 future climate projection for the partial and full restoration scenarios. (figure by author in <span class="citation">Wada et al. (2017, in review)</span>)</p>
-</div>
-<div class="figure">
-<img src="../images/Fig2.png" alt="Figure 25: Impact of restoration on groundwater recharge in Pu‘u Wa‘awa‘a. The green contours outline the enclosure areas corresponding to the partial restoration scenario in which only these regions undergo some changes. Blue corresponds to an increase in groundwater recharge due to restoration, and red corresponds to a decrease. (figure by author in Wada et al. (2017, in review))" id="fig:hawaii2" style="width:80.0%" />
-<p class="caption">Figure 25: Impact of restoration on groundwater recharge in Pu‘u Wa‘awa‘a. The green contours outline the enclosure areas corresponding to the partial restoration scenario in which only these regions undergo some changes. Blue corresponds to an increase in groundwater recharge due to restoration, and red corresponds to a decrease. (figure by author in <span class="citation">Wada et al. (2017, in review)</span>)</p>
-</div>
-<div class="figure">
-<img src="../images/Fig3.png" alt="Figure 26: Impact of restoration on landscape flammability in Pu‘u Wa‘awa‘a. The green contours outline the enclosure areas corresponding to the partial restoration scenario. Yellow corresponds to a decrease in landscape flammability due to restoration, and red means no change. (figure by author in Wada et al. (2017, in review))" id="fig:hawaii3" style="width:80.0%" />
-<p class="caption">Figure 26: Impact of restoration on landscape flammability in Pu‘u Wa‘awa‘a. The green contours outline the enclosure areas corresponding to the partial restoration scenario. Yellow corresponds to a decrease in landscape flammability due to restoration, and red means no change. (figure by author in <span class="citation">Wada et al. (2017, in review)</span>)</p>
-</div>
-<div class="figure">
-<img src="../images/Fig4.png" alt="Figure 27: Spatial prioritization and restoration costs in in Pu‘u Wa‘awa‘a. For each objective and both combined. Rank 1 pixels correspond to the highest priority restoration areas. Costs are cumulative, such that if Rank n is restored, Rank n-1 was restored as well. The green contours outline the enclosure areas corresponding to the partial restoration scenario. (figure by author in Wada et al. (2017, in review))" id="fig:hawaii4" style="width:80.0%" />
-<p class="caption">Figure 27: Spatial prioritization and restoration costs in in Pu‘u Wa‘awa‘a. For each objective and both combined. Rank 1 pixels correspond to the highest priority restoration areas. Costs are cumulative, such that if Rank n is restored, Rank n-1 was restored as well. The green contours outline the enclosure areas corresponding to the partial restoration scenario. (figure by author in <span class="citation">Wada et al. (2017, in review)</span>)</p>
-</div>
-
-<h4 id="useful-resources" class="unnumbered">Useful resources</h4>
-<p>Hereafter are listed several resources that may be useful while creating visualizations.</p>
-<p>Color palette pickers, to help choose a color theme:</p>
-<ul>
-<li><a href="http://colorbrewer2.org/">Colorbrewer</a>, with an emphasis on maps and colorblind-friendly schemes</li>
-<li><a href="http://colrd.com/palette/">Colrd</a>, collaborative more designer-oriented website</li>
-<li><a href="https://color.adobe.com">Adobe Kuler</a><br />
-</li>
-</ul>
-<p>Parallel coordinates plots resources:</p>
-<ul>
-<li><a href="https://reed.cee.cornell.edu/parallel-axis/">Ready-to-use parallel coordinates graph for multi-dimensional data</a></li>
-<li><a href="http://syntagmatic.github.io/parallel-coordinates/">Code to build a parallel coordinates plot in javascript with D3.js</a></li>
-<li><a href="https://waterprogramming.wordpress.com/2016/09/12/easy-vectorized-parallel-plots-for-multiple-data-sets/">Explanations to build a parallel coordinates plot in Python</a></li>
-<li><a href="https://github.com/OpenMORDM">R package for Multi-objective Robust Decision Making, including parallel coordinates plot and 3D scatterplot (linked together)</a></li>
-<li><a href="https://cran.r-project.org/web/packages/alluvial/vignettes/alluvial.html">To make alluvial (categorical version of parallel coordinates) plot: R package <em>alluvial</em></a><br />
-</li>
-</ul>
-<p>Analysis of spatial data with Python:</p>
-<ul>
-<li><a href="https://pypi.python.org/pypi/pygeoprocessing">PyGeoprocessing: geoprocessing routines for GIS</a></li>
-<li><a href="http://sensitivecities.com/so-youd-like-to-make-a-map-using-python-EN.html#.WCJPDvkrJhE">A well written blogpost about maps in Python</a></li>
-<li><a href="http://www.datadependence.com/2016/06/creating-map-visualisations-in-python/">and another one on the same topic</a></li>
-<li><a href="http://matplotlib.org/basemap/users/examples.html">Basemap examples</a><br />
-</li>
-</ul>
-<p>Analysis of spatial data with R:</p>
-<ul>
-<li><a href="https://cran.r-project.org/web/views/Spatial.html">overview of analysis of spatial data</a></li>
-<li><a href="https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf">Illustration of the <em>ggmap</em> package</a></li>
-<li><a href="https://cran.r-project.org/web/packages/raster/vignettes/Raster.pdf">Introduction to the <em>raster</em> package</a></li>
-<li><a href="https://oscarperpinan.github.io/rastervis/">Introduction to the <em>RasterVis</em> package, built on top of <em>raster</em> package</a><br />
-</li>
-</ul>
-<p>Other geovisualization platforms:</p>
-<ul>
-<li><a href="http://geoawesomeness.com/top-19-online-geovisualization-tools-apis-libraries-beautiful-maps/">A list of 19 online geovisualization tools</a></li>
-<li><a href="https://www.mapbox.com/">Mapbox (API and libraries)</a></li>
-<li><a href="https://carto.com/">Carto (web platform)</a></li>
-<li><a href="http://leafletjs.com/">Leaflet (JavaScript library)</a></li>
-<li><a href="https://mapzen.com/">Mapzen (API)</a><br />
-</li>
-</ul>
-<p>Sensitivity analysis:</p>
-<ul>
-<li><a href="https://cran.r-project.org/web/packages/sensitivity/index.html">with R: <em>sensitivity</em> package</a></li>
-<li><a href="https://github.com/SALib/SALib">with Python: <em>SAlib</em> library</a><br />
-</li>
-</ul>
-<p>Layout and design:</p>
-<ul>
-<li><a href="http://www.sumopaint.com/home/">Image editor and layout tool online</a>, a free alternative to Photoshop<br />
-</li>
-</ul>
-<h1 id="conclusion-next-steps"><span class="header-section-number">4</span> Conclusion &amp; Next Steps</h1>
-<p>This work supports ES analysts striving to communicate effectively natural capital assessment results. It proposes approaches to ES visualizations and summaries in a toolbox tailored to the specific needs of ES analysts, supported by fundamental and applied data visualization guidelines.</p>
-<h2 id="sec:table"><span class="header-section-number">4.1</span> Summary table for specific display needs</h2>
+<h3 id="sec:table"><span class="header-section-number">3.5.2</span> Summary table for specific display needs</h3>
 
 <table style="border-collapse:collapse;border-spacing:0">
 <tr>
@@ -1183,12 +1083,111 @@ See section (<span class="ref">sec:beneficiaries</span>)
 </table>
 <p></p>
 
-<h2 id="on-standardizing-approaches-to-communicate-natural-capital-results"><span class="header-section-number">4.2</span> On standardizing approaches to communicate natural capital results</h2>
+<h3 id="sec:resou"><span class="header-section-number">3.5.3</span> Resources</h3>
+<h4 id="examples-and-inspiration" class="unnumbered">Examples and inspiration</h4>
+<ul>
+<li><a href="http://flowingdata.com/">Flowing data: General data visualization ideas in blog format</a></li>
+<li><a href="http://msp.naturalcapitalproject.org/msp_concierge_master/">The Gallery of the Marine Planning Concierge Tool gathers great work on marine ES</a>. These include <a href="http://www.geointerest.frih.org/NatCap/">the Mapping portal for the Belize project by Gregg Verutes</a> and <a href="http://marineapps.naturalcapitalproject.org/bahamas/">a similar map web viewer from the same author, for coastal hazard model results in the Bahamas</a></li>
+<li><a href="http://www.myanmarnaturalcapital.org/en">Myanmar Natural Capital: a storytelling approach for a project involving multiple ecosystem services</a>. The tools used here are D3.js, leaflet, openStreetMaps, Google Maps and photoshop.</li>
+<li><a href="http://coastalresilience.org/tools/apps/#apps_id%7Cassess-risk%7C1">The Nature Conservancy also developed a visualization platform, gathering a suite of web applications based on maps</a>, aiming to convey and/or simplify ecological concepts, assess risk, identify and compare different solutions and scenarios. For example, <a href="http://maps.coastalresilience.org/gulfmex/">the coastal resilience interactive map in the Gulf of Mexico</a></li>
+<li><a href="http://newagbioeconomy.umn.edu/collaborativegeodesign/">Collaborative GeoDesign, a web application allowing users to test land cover changes on the landscape, and informs on the expected corresponding impact on ES metrics</a></li>
+<li><a href="http://preview.weather.gov/edd/">Weather forecast: the NWS enhanced Data Display</a><br />
+</li>
+</ul>
+<div class="figure">
+<img src="../images/addl.png" alt="Figure 20: Additional examples (a) To compare 3 ES metrics between 4 scenarios, Arkema et al. (2015) combines small multiples of objective score maps, with summary statistics and bar plots. (b) Change map displaying the amount of additional sediment export (in percentage) comparing a future scenario with the current baseline one (Mandle et al. 2016). (c) On a static display, Nelson et al. (2008)’s strategy consists in displaying only the extreme points of the trade-off curve. (d) Change in services for all scenarios and iterations relative to current management Arkema et al. (2015)" id="fig:addl" />
+<p class="caption">Figure 20: Additional examples (a) To compare 3 ES metrics between 4 scenarios, <span class="citation">Arkema et al. (2015)</span> combines small multiples of objective score maps, with summary statistics and bar plots. (b) Change map displaying the amount of additional sediment export (in percentage) comparing a future scenario with the current baseline one <span class="citation">(Mandle et al. 2016)</span>. (c) On a static display, <span class="citation">Nelson et al. (2008)</span>’s strategy consists in displaying only the extreme points of the trade-off curve. (d) Change in services for all scenarios and iterations relative to current management <span class="citation">Arkema et al. (2015)</span></p>
+</div>
+<div class="figure">
+<img src="../images/peter.png" alt="Figure 21: The Middle Cedar visualization is an interactive webapp, developed by Hawthorne (2016), who combined a scatterplot, a map, a pie chart and summary statistics in a single dashboard. It allows users to click on each point of the trade-off curve, and the corresponding land cover map will be displayed. Additionally, summary metrics and a pie chart provide information relative to the scenario chosen upon click (Hawthorne 2016)" id="fig:Peter" style="width:70.0%" />
+<p class="caption">Figure 21: <a href="https://phawthorne.github.io/mc-vis/">The Middle Cedar visualization</a> is an interactive webapp, developed by <span class="citation">Hawthorne (2016)</span>, who combined a scatterplot, a map, a pie chart and summary statistics in a single dashboard. It allows users to click on each point of the trade-off curve, and the corresponding land cover map will be displayed. Additionally, summary metrics and a pie chart provide information relative to the scenario chosen upon click <span class="citation">(Hawthorne 2016)</span></p>
+</div>
+<div class="figure">
+<img src="../images/consdash.png" alt="Figure 22: Extract of the Conservation ROI Dashboard, gathering and comparing ROI projects across the US" id="fig:ConservationROIDashboard" />
+<p class="caption">Figure 22: Extract of the <a href="http://nascience.us/roi/public/">Conservation ROI Dashboard</a>, gathering and comparing ROI projects across the US</p>
+</div>
+<div class="figure">
+<img src="../images/webapp/full.png" alt="Figure 23: The Tana Water Fund interactive dashboard allows visualization of tradeoffs between objectives, comparison of scenarios and assessment of uncertainty. The current version is a prototype laying out the concept for a more generic tool" id="fig:webapp_full" />
+<p class="caption">Figure 23: <a href="https://charlottegiseleweil.github.io/webviz_natcap/">The Tana Water Fund interactive dashboard</a> allows visualization of tradeoffs between objectives, comparison of scenarios and assessment of uncertainty. The current version is a prototype laying out the concept for a more generic tool</p>
+</div>
+<div class="figure">
+<img src="../images/Fig1.png" alt="Figure 24: Land cover in Pu‘u Wa‘awa‘a under different restoration and climate scenarios. The purple contours on the current land cover map outline the enclosure areas corresponding to the partial restoration scenario. The maps on top correspond to the evolution of land cover, under the current climate for the partial and full restoration scenarios. The maps underneath correspond to the evolution of the land cover, under the RCP 8.5 future climate projection for the partial and full restoration scenarios (Wada et al. 2017, in review)" id="fig:hawaii1" style="width:80.0%" />
+<p class="caption">Figure 24: Land cover in Pu‘u Wa‘awa‘a under different restoration and climate scenarios. The purple contours on the current land cover map outline the enclosure areas corresponding to the partial restoration scenario. The maps on top correspond to the evolution of land cover, under the current climate for the partial and full restoration scenarios. The maps underneath correspond to the evolution of the land cover, under the RCP 8.5 future climate projection for the partial and full restoration scenarios <span class="citation">(Wada et al. 2017, in review)</span></p>
+</div>
+<div class="figure">
+<img src="../images/Fig2.png" alt="Figure 25: Impact of restoration on groundwater recharge in Pu‘u Wa‘awa‘a. The green contours outline the enclosure areas corresponding to the partial restoration scenario in which only these regions undergo some changes. Blue corresponds to an increase in groundwater recharge due to restoration, and red corresponds to a decrease (Wada et al. 2017, in review)" id="fig:hawaii2" style="width:80.0%" />
+<p class="caption">Figure 25: Impact of restoration on groundwater recharge in Pu‘u Wa‘awa‘a. The green contours outline the enclosure areas corresponding to the partial restoration scenario in which only these regions undergo some changes. Blue corresponds to an increase in groundwater recharge due to restoration, and red corresponds to a decrease <span class="citation">(Wada et al. 2017, in review)</span></p>
+</div>
+<div class="figure">
+<img src="../images/Fig3.png" alt="Figure 26: Impact of restoration on landscape flammability in Pu‘u Wa‘awa‘a. The green contours outline the enclosure areas corresponding to the partial restoration scenario. Yellow corresponds to a decrease in landscape flammability due to restoration, and red means no change (Wada et al. 2017, in review)" id="fig:hawaii3" style="width:80.0%" />
+<p class="caption">Figure 26: Impact of restoration on landscape flammability in Pu‘u Wa‘awa‘a. The green contours outline the enclosure areas corresponding to the partial restoration scenario. Yellow corresponds to a decrease in landscape flammability due to restoration, and red means no change <span class="citation">(Wada et al. 2017, in review)</span></p>
+</div>
+<div class="figure">
+<img src="../images/Fig4.png" alt="Figure 27: Spatial prioritization and restoration costs in in Pu‘u Wa‘awa‘a. For each objective and both combined. Rank 1 pixels correspond to the highest priority restoration areas. Costs are cumulative, such that if Rank n is restored, Rank n-1 was restored as well. The green contours outline the enclosure areas corresponding to the partial restoration scenario (Wada et al. 2017, in review)" id="fig:hawaii4" style="width:80.0%" />
+<p class="caption">Figure 27: Spatial prioritization and restoration costs in in Pu‘u Wa‘awa‘a. For each objective and both combined. Rank 1 pixels correspond to the highest priority restoration areas. Costs are cumulative, such that if Rank n is restored, Rank n-1 was restored as well. The green contours outline the enclosure areas corresponding to the partial restoration scenario <span class="citation">(Wada et al. 2017, in review)</span></p>
+</div>
+
+<h4 id="useful-resources" class="unnumbered">Useful resources</h4>
+<p>Hereafter are listed several resources that may be useful while creating visualizations.</p>
+<p>Color palette pickers, to help choose a color theme:</p>
+<ul>
+<li><a href="http://colorbrewer2.org/">Colorbrewer</a>, with an emphasis on maps and colorblind-friendly schemes</li>
+<li><a href="http://colrd.com/palette/">Colrd</a>, collaborative more designer-oriented website</li>
+<li><a href="https://color.adobe.com">Adobe Kuler</a><br />
+</li>
+</ul>
+<p>Parallel coordinates plots resources:</p>
+<ul>
+<li><a href="https://reed.cee.cornell.edu/parallel-axis/">Ready-to-use parallel coordinates graph for multi-dimensional data</a></li>
+<li><a href="http://syntagmatic.github.io/parallel-coordinates/">Code to build a parallel coordinates plot in javascript with D3.js</a></li>
+<li><a href="https://waterprogramming.wordpress.com/2016/09/12/easy-vectorized-parallel-plots-for-multiple-data-sets/">Explanations to build a parallel coordinates plot in Python</a></li>
+<li><a href="https://github.com/OpenMORDM">R package for Multi-objective Robust Decision Making, including parallel coordinates plot and 3D scatterplot (linked together)</a></li>
+<li><a href="https://cran.r-project.org/web/packages/alluvial/vignettes/alluvial.html">To make alluvial (categorical version of parallel coordinates) plot: R package <em>alluvial</em></a><br />
+</li>
+</ul>
+<p>Analysis of spatial data with Python:</p>
+<ul>
+<li><a href="https://pypi.python.org/pypi/pygeoprocessing">PyGeoprocessing: geoprocessing routines for GIS</a></li>
+<li><a href="http://sensitivecities.com/so-youd-like-to-make-a-map-using-python-EN.html#.WCJPDvkrJhE">A well written blogpost about maps in Python</a></li>
+<li><a href="http://www.datadependence.com/2016/06/creating-map-visualisations-in-python/">and another one on the same topic</a></li>
+<li><a href="http://matplotlib.org/basemap/users/examples.html">Basemap examples</a><br />
+</li>
+</ul>
+<p>Analysis of spatial data with R:</p>
+<ul>
+<li><a href="https://cran.r-project.org/web/views/Spatial.html">overview of analysis of spatial data</a></li>
+<li><a href="https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf">Illustration of the <em>ggmap</em> package</a></li>
+<li><a href="https://cran.r-project.org/web/packages/raster/vignettes/Raster.pdf">Introduction to the <em>raster</em> package</a></li>
+<li><a href="https://oscarperpinan.github.io/rastervis/">Introduction to the <em>RasterVis</em> package, built on top of <em>raster</em> package</a><br />
+</li>
+</ul>
+<p>Other geovisualization platforms:</p>
+<ul>
+<li><a href="http://geoawesomeness.com/top-19-online-geovisualization-tools-apis-libraries-beautiful-maps/">A list of 19 online geovisualization tools</a></li>
+<li><a href="https://www.mapbox.com/">Mapbox (API and libraries)</a></li>
+<li><a href="https://carto.com/">Carto (web platform)</a></li>
+<li><a href="http://leafletjs.com/">Leaflet (JavaScript library)</a></li>
+<li><a href="https://mapzen.com/">Mapzen (API)</a><br />
+</li>
+</ul>
+<p>Sensitivity analysis:</p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/sensitivity/index.html">with R: <em>sensitivity</em> package</a></li>
+<li><a href="https://github.com/SALib/SALib">with Python: <em>SAlib</em> library</a><br />
+</li>
+</ul>
+<p>Layout and design:</p>
+<ul>
+<li><a href="http://www.sumopaint.com/home/">Image editor and layout tool online</a>, a free alternative to Photoshop<br />
+</li>
+</ul>
+<h1 id="conclusion"><span class="header-section-number">4</span> Conclusion</h1>
+<h2 id="on-standardizing-approaches-to-communicate-natural-capital-results"><span class="header-section-number">4.1</span> On standardizing approaches to communicate natural capital results</h2>
 <p>As many in the ES community are calling for a standardized method to quantify and map ES (<span class="citation">Englund et al. (2017)</span>, <span class="citation">Crossman et al. (2013)</span>, <span class="citation">Martínez-Harms and Balvanera (2012)</span>), a number of strategies are being developed on the visualization front. Interactive tools are becoming increasingly common, as platforms to develop them are becoming more and more accessible.</p>
 <p>Similarly to <span class="citation">Englund et al. (2017)</span>, this study finds it difficult to point one best method generically adequate to all cases. Rather, best practices were suggested in a display “toolbox” (chapters <span class="ref">sec:elements</span> and <span class="ref">sec:UserGuide</span>). Approaches are very context dependent. The tools and types of display must be chosen according to the aim, intended audience, analyst skills, data availability, time frame and other factors.</p>
 <p>Remain some open questions and areas of improvements were identified. The question of the scale, <strong>the effect of the resolution</strong> chosen on the results can be further explored. Additionally, the survey noted growing interest in the topic of <strong>beneficiaries</strong>. Not only quantifying the people benefiting from an intervention, but more precisely adding nuance in demographics or social metrics to the analysis, classify by subgroups (e.g. which fraction of service benefits accrue to vulnerable populations?) and/or contrast beneficiary distribution in space with service distribution in space.</p>
 <p>The engaging aspect rising from dynamic features and the <strong>interactivity</strong> was expressed, as shown by the enthusiasm suscited by the interactive dashboard prototype developed alongside this toolbox <span class="citation">(Weil 2017)</span>. This observation calls for development of more modern engaging tools, leveraging the abilities offered by the tools ad develoment environments becoming more and more common an accessible.</p>
-<h2 id="engaging-a-broader-audience-into-major-decisions-on-natural-capital-sustainable-management"><span class="header-section-number">4.3</span> Engaging a broader audience into major decisions on natural capital sustainable management</h2>
+<h2 id="engaging-a-broader-audience-into-major-decisions-on-natural-capital-sustainable-management"><span class="header-section-number">4.2</span> Engaging a broader audience into major decisions on natural capital sustainable management</h2>
 <p>There is an enormous potential for environmental impact and climate change mitigation through an informed management of natural capital. So called conservation finance (i.e. a financial investment that aims to conserve the values of the ecosystem for the long term, as defined by <span class="citation">Huwyler et al. (2014)</span>) has a large unrealized potential, there is a significant unmet demand for investment<a href="#fn22" class="footnoteRef" id="fnref22"><sup>22</sup></a>, and aligned intentions to promote natural capital sustainable management both from the political world - as illustrated by the Paris agreement and the 17 UN sustainable development goals among others (<span class="citation">Center for Climate and Energy Solutions (2015)</span>, <span class="citation">Guardian (2015)</span>) - and also emerging in the finance world (see <a href="http://www.conservationfinancenetwork.org/">the Conservation Finance Network</a> for example). However, one main obstacle for investors, in the hardly measurable aspect of return on investment and conservation benefits. But natural capital assessments tackles this exact question.</p>
 <p>Building on this observation, the hypothesis can be formulated that linking the right expertise would allow to bridge the gaps and open the doors to many desired investments and high impact projects: partnering investors looking for long term reliable and meaningful project with cutting-edge scientists modeling the behavior of ecosystems to quantify the costs and benefits from natural capital and its sustainable management. Several initiatives are going in this direction, Credit Suisse for example, expressed their long-term intent of creating a conservation finance asset class <span class="citation">(Huwyler et al. 2016)</span>. It has been proven to be possible to deliver great conservation impacts while generating returns for investors <span class="citation">(Huwyler et al. 2014)</span>.</p>
 <p>However, their success seems contingent upon the ability of several fields to work together; linking different expertise seem indeed required bridge the gaps (for example through partnering investors looking for long term reliable and meaningful project with cutting-edge scientists modeling the behavior of ecosystems to quantify the costs and benefits from natural capital and its sustainable management). Multi-disciplinary communication therefore appears as a crucial aspect. In this context, data visualization tools play a key role to connect the complex scientific results to the real world.</p>
@@ -1612,11 +1611,8 @@ See section (<span class="ref">sec:beneficiaries</span>)
 - <a href="https://cran.r-project.org/web/views/Spatial.html">overview of analysis of spatial data</a><br />
 - <a href="https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf">Illustration of the ggmap package</a><br />
 - <a href="https://cran.r-project.org/web/packages/raster/vignettes/Raster.pdf">Introduction to the raster package</a><br />
-- <a href="https://oscarperpinan.github.io/rastervis/">and to RasterVis, which builds on raster package</a><a href="#fnref6">↩</a></p></li>
-<li id="fn7"><p>Useful links to make maps using Python (matplotlib, basemap):<br />
-- <a href="http://sensitivecities.com/so-youd-like-to-make-a-map-using-python-EN.html#.WCJPDvkrJhE">A well written blogpost</a><br />
-- <a href="http://www.datadependence.com/2016/06/creating-map-visualisations-in-python/">and another one</a><br />
-- <a href="http://matplotlib.org/basemap/users/examples.html">basemap examples</a>.<a href="#fnref7">↩</a></p></li>
+- <a href="https://oscarperpinan.github.io/rastervis/">Introduction to RasterVis, which builds on raster package</a><a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>Useful links to make maps using Python (with matplotlib and basemap): <a href="http://sensitivecities.com/so-youd-like-to-make-a-map-using-python-EN.html#.WCJPDvkrJhE">a well written blogpost</a>, <a href="http://www.datadependence.com/2016/06/creating-map-visualisations-in-python/">another one</a>, and <a href="http://matplotlib.org/basemap/users/examples.html">basemap examples</a>.<a href="#fnref7">↩</a></p></li>
 <li id="fn8"><p>Vocabulary note: “multi-objective” refers here to problems with three or more objectives, also called many-objective problems <span class="citation">(Fleming et al. 2005)</span> or high order-Pareto optimization problems <span class="citation">(Reed and Minsker 2004)</span><a href="#fnref8">↩</a></p></li>
 <li id="fn9"><p>To avoid confusion, we clarify here that figure <span class="ref">fig:scatterplots</span>b is not a SPLOM, as the axis correspond to the same variables in every multiple. A SPLOM would display plots where each the axis correspond to different variables in each multiple, to show pairwise correlation information. An example can be found in <a href="https://www3.epa.gov/caddis/da_exploratory_1.html">figure 2 here</a>.<a href="#fnref9">↩</a></p></li>
 <li id="fn10"><p>A side concern that may come up in these cases, is about data management: the total size of the runs can become is too large for available main memory. A strategy is to precompute summary statistics, such as the mean and extrema <span class="citation">(Wilson and Potter 2009)</span>.<a href="#fnref10">↩</a></p></li>
@@ -1653,9 +1649,10 @@ See section (<span class="ref">sec:beneficiaries</span>)
 
 // Insert title of project
 const titleFirst="Natural Capital Data Visualization";
-const titleSecond="to promote sustainable decision making";
+const titleSecond="A toolbox to synthesize and visualize multiple complex ecosystem services model outputs";
 $(
     '<h1 id="title" class="title first">' + titleFirst + '</h1>' +
+    '<br>' + 
     '<h1 class="title second">' + titleSecond + '</h1>'
  ).insertAfter("#TOC");
 
@@ -1664,13 +1661,14 @@ const toc = $('#TOC ul:first-child');
 toc.addClass("side-nav").addClass("fixed");
 
 // Add link to live demo & title of project
-const demoUrl = 'https://charlottegiseleweil.github.io/webviz_natcap/intro.html';
-toc.prepend('<li>' + 
-    '<a href="' + demoUrl + '">' +
-    '<i class="material-icons">launch</i> Visualization dashboard' +
+const masterpageUrl = 'http://www.charlotteweil.fr/masterthesis';
+toc.prepend(
+    '<li>' + 
+    '<a href="toolbox.pdf" target="_blank">' +
+    '<i class="material-icons">picture_as_pdf</i> PDF version' +
     '</a>' +
-    '<div class="bottom divider"></div>' +
     '</li>' +
+    '<div class="bottom divider"></div>' + 
     '<li>' +
     '<a class="title" href="#title">' +
     titleFirst +
@@ -1679,11 +1677,13 @@ toc.prepend('<li>' +
 
 // Add link to pdf document
 toc.append(
-    '<li>' + 
+    
     '<div class="divider"></div>' +
-    '<a href="thesis.pdf" target="_blank">' +
-    '<i class="material-icons">picture_as_pdf</i> PDF version' +
+    '<li>' + 
+    '<a href="' + masterpageUrl + '">' +
+    '<i class="material-icons">launch</i> Master thesis' +
     '</a>' +
+    '<div class="bottom divider"></div>' +
     '</li>');
 
 
@@ -1705,13 +1705,11 @@ const email = 'weilcharlotte@gmail.com';
 toc.prepend('<li>' +
     '<div class="userView">' +
     '<a class="inline" href="' + natcapUrl + '"><img class="logo" src="' + logoUrl + '"></a>' +
-    '<a class="inline" href="' + githubUrl + '"><img class="avatar circle" src="' + avatarUrl + '"></a>' +
-    '<span class="name">' + 
-    'Author: Charlotte Weil' +
-    '<a class="inline-icon" href="mailto:' + email + '"><i class="material-icons">email</i></a>' +
-    '<a class="inline-icon" href="' + linkedInUrl + '"><i class="zmdi zmdi-linkedin"></i></a>' +
-    '<a class="inline-icon" href="' + githubUrl + '"><i class="zmdi zmdi-github"></i></a>' +
-    '</span>' +
+    
+    '<li>' + 
+    '<a class="inline-icon" href="mailto:' + email + '"><i class="material-icons">email</i>' +
+    '<em>Charlotte Weil</em></a>' +
+    '</li>' +
     '</div>' +
     '<div class="divider"></div>' +
     '</li>');
