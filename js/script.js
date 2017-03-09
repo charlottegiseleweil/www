@@ -21,8 +21,10 @@ function expandCard(evt) {
 		if (card[0].clientLeft) {
 			const finalPos = card[0].getBoundingClientRect();
 		}
-	}
-	
+
 	evt.stopPropagation();
 	return false;
+	
+	}
+	
 };
