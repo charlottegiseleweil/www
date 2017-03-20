@@ -2118,11 +2118,13 @@ $(
 const toc = $('#TOC ul:first-child');
 toc.addClass("side-nav").addClass("fixed");
 
-// Add link to live demo & title of project
+// Add links top
 const demoUrl = 'https://charlottegiseleweil.github.io/webviz_natcap/intro.html';
+const masterpageUrl = 'http://www.charlotteweil.fr/masterthesis';
+
 toc.prepend('<li>' + 
-    '<a href="' + demoUrl + '">' +
-    '<i class="material-icons">launch</i> Visualization dashboard' +
+    '<a href="thesis.pdf" target="_blank">' +
+    '<i class="material-icons">picture_as_pdf</i> PDF version' +
     '</a>' +
     '<div class="bottom divider"></div>' +
     '</li>' +
@@ -2132,12 +2134,18 @@ toc.prepend('<li>' +
     '</a>' +
     '</li>');
 
-// Add link to pdf document
+// Add links bottom
 toc.append(
     '<li>' + 
     '<div class="divider"></div>' +
-    '<a href="thesis.pdf" target="_blank">' +
-    '<i class="material-icons">picture_as_pdf</i> PDF version' +
+    '<a href="' + demoUrl + '">' +
+    '<i class="material-icons">launch</i> Visualization dashboard' +
+    '</a>' +
+    '</li>' +
+    '<div class="bottom divider"></div>' + 
+    '<li>' + 
+    '<a href="' + masterpageUrl + '">' +
+    '<i class="material-icons">reorder</i> Master thesis' +
     '</a>' +
     '</li>');
 
