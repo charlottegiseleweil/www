@@ -15,6 +15,8 @@
 
     <!-- My CSS -->
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/tooltip.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
 
     <!-- jQuery -->    
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -49,7 +51,13 @@ Natural Capital Data Visualization </h1>
           
           <!--Reports-->
           <div class="col s8">
-            <h3>Master thesis report</h3>
+
+            <div class="tooltip">
+              <h3>Master thesis report</h3>
+              <span class="tooltiptext" style="bottom: -800%;"><p>Natural capital assessments reveal the specific benefits provided by nature in order to develop approaches to manage environmental assets sustainably and take nature into account in major decisions. Effective communication of their results, including clear visuals, is crucial for supporting decision-makers. However, no consolidated practical guidance exists to support analysts in synthesizing their results, and visualization tools are scattered. The present work addresses this gap, and aims to facilitate understanding and spread of natural capital assessments, hoping to increase engagement in a field with large potential for impact. </p><p>First, we gather the existing knowledge on design strategies for displaying complex information through a literature review and surveying analysts in the field. Complex information refers here to the specificities of natural capital data, i.e typically large numbers of maps and aspatial statistics that result from considering multiple objectives, scenarios, and uncertainties.</p><p>Secondly, this work scopes the gaps in the field by analyzing and prioritizing the visualization needs, through a survey and interviews. Findings from this assessment guide the development of (1) a toolbox to help analysts in their task of communicating natural capital information; and (2) an innovative tool to display natural capital results, merging knowledge from previous points in the form of a prototype user-friendly dynamic web visualization. In an interactive dashboard combining multiple linked views, this tool allows visualization of tradeoffs between objectives, comparison of scenarios and assessment of uncertainty.</p>
+              </span>
+            </div>
+
             <div class="row">
               <div class="col s4">
                 <a target="_blank" href="masterthesis/thesis.html">
@@ -64,7 +72,12 @@ Natural Capital Data Visualization </h1>
             </div>
             <br>
 
-            <h3>User guide to display natural capital results</h3>
+
+             <div class="tooltip">
+              <h3>User guide to display natural capital results</h3>
+              <span class="tooltiptext"><p>This document aims to support ES analysts striving to effectively communicate natural capital information. It proposes approaches to ES visualizations and summaries in the form of a toolbox tailored to the specific needs of ES analysts, illustrated with examples, resources and references, and supported by fundamental and applied data visualization guidelines. </p>
+              </span>
+            </div>
             <div class="row">
               <div class="col s4">
                 <a target="_blank" href="masterthesis/toolbox.html">
@@ -111,7 +124,15 @@ Natural Capital Data Visualization </h1>
         
         <!-- Visualization section -->
         <div class="row">
-          <div class="card-panel" id="viz_canvas"> <h3> Visualization tool prototype </h3>
+          <div class="card-panel" id="viz_canvas"> 
+
+            <div class="tooltip">
+              <h3> Visualization tool prototype </h3>
+              <span class="tooltiptext"><p>This visualization tool was conceived to address priority display needs identified through a survey conducted among professionals in the field of natural capital. Suited for both exploratory and communication purposes, it is intended for an audience of stakeholders or partners involved in the project - but the tool should be initially introduced by the analyst. In an interactive dashboard combining multiple linked views of considered portfolios, it allows comparison of these options, assessments of trade-offs and of the effect of uncertainty.</p>
+              </span> 
+            </div>
+
+            
             <div class="row">
               <div class="col s4">
                 <a target="_blank" href="https://charlottegiseleweil.github.io/webviz_natcap/">
