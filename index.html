@@ -1,206 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>Charlotte Gisèle Weil</title>
-    <!-- Material Design Icons Extension -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" media="all" rel="stylesheet" type="text/css">
-  
-    <!-- Material Design Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-     <!-- Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+<html>
+<title>Hi! I'm Charlie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- My CSS -->
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  </head>
+<link rel="stylesheet" href="css/style.css">
 
-  <body class="grey lighten-2">
+<!-- Material Design Icons Extension -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" media="all" rel="stylesheet" type="text/css">
 
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
-    
-    <div class="container">
-        <div class="section">
-        <div class="row center" style="margin-bottom: 5px;">
-          <a href="#!">
-            <img class="circle avatar z-depth-2" src="https://avatars2.githubusercontent.com/u/18381609?v=3&s=460">
-          </a>
-        </div>
-        <h1 class="header center">
-          Charlotte Gisèle Weil
-        </h1>
-        <h5 class="header center col s12 light">Environmental Data Analyst</h5>
-        <h2 class="icon-row center">
-          <a class="inline-icon" href="mailto:weilcharlotte@gmail.com">
-            <i class="material-icons">email</i>
-          </a>
-          <a class="inline-icon" href="https://www.linkedin.com/in/charlotteweil" target="_blank">
-            <i class="zmdi zmdi-linkedin"></i>
-          </a>
-          <a class="inline-icon" href="https://github.com/charlottegiseleweil" target="_blank">
-            <i class="zmdi zmdi-github"></i>
-          </a>
+<!-- Sidebar/menu -->
+
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images/CharlotteWeil.jpg" style="width:70%;" class="w3-round"><br><br>
+    <h4><b>Charlotte Gisèle Weil</b></h4>
+        <h2 class="icon-row w3-padding">
+            <a class="inline-icon" href="mailto:weilcharlotte@gmail.com">
+              <i class="zmdi zmdi-email"></i></a>
+            <a class="inline-icon" href="https://medium.com/@charlotteweil" target="_blank"><i class="zmdi zmdi-library"></i></a>
+            <a class="inline-icon" href="https://github.com/charlottegiseleweil" target="_blank"><i class="zmdi zmdi-github"></i></a>
+            <a class="inline-icon" href="https://twitter.com/charlotte_weil" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
+            <a class="inline-icon" href="https://www.linkedin.com/in/charlotteweil" target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
         </h2>
-
-      </div>
-    </div>
-
-
-
-    
-    <div class="container"> 
-    <div class="section">
-    <div class="row center">
-
-      <!-- Projects -->
-      <div class="col s8">
-      
-        <!--
-          <div class="row center">-->
-            <!-- <div class="col s12">
-              <h3>Current projects</h3>
-            </div>-->
-            <!--<div class="col s12">
-              <a href="masterthesis.html">
-                <button class="btn waves-light">Natural Capital Data Visualization</button>
-              </a>
-            </div>-->
-
-            <!-- <div class="col s12">
-              <h3>Older projects</h3>
-            </div>
-            <div class="col s12">
-              <div class="card-panel">
-                
-              </div>
-            </div> -->
-
-        <!--
-        </div>
-        -->
-        <a href="natcap.html"> <h3>Natural Capital Data Viz</h3></a>
-          <div class="row center"><div class="col s8">
-            <a target="_blank" href="http://viz.naturalcapitalproject.org">
-              <button class="btn waves-light" style="width: 500px">Natural Capital Data Visualization Toolbox</button>
-            </a>
-          </div></div>
-          <div class="row center"><div class="col s8">
-            <a target="_blank" href="https://charlottegiseleweil.github.io/webviz_natcap/">
-              <button class="btn waves-light" style="width: 500px">Multi-Ecosystems Decision Support Dashboard</button>
-            </a>
-          </div></div>
-        <!-- Not Buttons:
-        <h3> <a target="_blank" href="http://viz.naturalcapitalproject.org">Natural Capital Data Visualization Toolbox</a></h3>
-        <h3> <a target="_blank" href="https://charlottegiseleweil.github.io/webviz_natcap/">Multi-Ecosystems Decision Support Dashboard </a></h3>
-        -->
-
-        </div>
-        <!-- End Projects -->
-
-
-  <!-- Map Where I work(ed) -->
-  <div class="col s4"'>
-    <div class="row center">
-      <div class="card-panel" id="whereIwork">
-        <div class="card" >
-        <div class="card-image" style="background-color:#e0e0e0;">
-          <img style="height:146px; width:335px; margin: 1px px 1px 1px" src="images/whereIwork.jpg">
-          <span class="card-title" style="color:black">Where I work(ed)</span>
-        </div>
-          <div class="row"> <br> <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1KPY_eNtTIcZ-NmuLHl-W5jhcbOAt-j8P&ll=76.58323701985704%2C-44.08416115&z=2" width="800" height="500"></iframe> </div>
-
-        </div>
-      </div> 
-    </div>
+    <!--<p class="w3-text-grey"><i>"Men build too many walls and not enough bridges."</i></p>
+    <p class="w3-text-grey">Isaac Newton.</p>-->
   </div>
-  <!--End Map Where I work(ed) -->
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="#press" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-book fa-fw w3-margin-right"></i>PRESS & PUBLICATIONS </a> 
+    <a href="#where" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-globe fa-fw w3-margin-right"></i>WHERE I WORK(ED)</a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 
 
 
-    </div> <!-- end row center -->
-    
-    <div class="row center">
-    <!-- D3 -->
-      <div class="col s8">
-        <div class="row left">
-        <img style="height:300px; width:480px" src="images/wordcloud.svg">
-        </div> 
+
+
+
+
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Featured Projects</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black" onclick="filterSelection('all')">ALL</button>
+      <button class="w3-button w3-white" onclick="filterSelection('filter_dataviz')"><i class="fa fa-photo w3-margin-right"></i>Data viz</button>
+      <button class="w3-button w3-white w3-hide-small" onclick="filterSelection('filter_ai')"><i class="fa fa-cog w3-margin-right"></i>AI</button>
+      <button class="w3-button w3-white w3-hide-small" onclick="filterSelection('filter_es')"><i class="fa fa-pagelines w3-margin-right"></i>Ecosystem Services</button>
+      <button class="w3-button w3-white w3-hide-small" onclick="filterSelection('filter_community')"><i class="fa fa-child w3-margin-right"></i>Community</button>
+    </div>
+    </div>
+  </header>
+
+
+
+  <!-- First Inspiration Grid
+  <div class="w3-row-padding filterDiv natcaps webmaps">-->
+    <div class="w3-third w3-container w3-margin-bottom w3-padding filterDiv filter_dataviz filter_es filter_community hide">
+      <a href='http://viz.naturalcapitalproject.org/pro-agua' target='_blank'><img src="/images/amazon.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+      <p><b>Natural Resilience in the Amazon</b></p>
+        <p>Floods and illegal mining affect the tri-national Amazonian region of Madre-de-dios-Acre-Pando where Brasil, Perú and Bolivia meet. With spatial data modeling of ecosystem services, we inform smart and sustainable spatial planning. Explore <a href='http://viz.naturalcapitalproject.org/pro-agua/' target='_blank'><i>interactively</i></a> future scenarios, mining expansion and ecosystem services assessment.
+        <span class="light"> {Work in progress} </span>
+      </p>
       </div>
-    <!-- end D3 -->
+    </div>
 
-    <!-- Press -->
-      <div class="col s4">
-        <div class="row center">
-          <h3>Press</h3>
-          <ul>
-            <li> <a target="_blank" href="http://www.bioone.org/doi/full/10.2984/71.4.2">Peer-reviewed Publication in Pacific Science</a> </li> 
+    <div class="w3-third w3-container w3-padding filterDiv filter_ai">
+      <a href='https://medium.com/@charlotteweil/can-we-locate-dams-from-space-2a796ac8c04b' target='_blank'><img src="images/dams.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Locating Dams from Space</b></p>
+        <p> Dams have tremendous impacts on habitats, and the vast majority of them aren’t mapped in globally available datasets. Thanks to deep learning computer vision algorithms, and fine-resolution satellite imagery, we can probably find them! <a href='https://medium.com/@charlotteweil/can-we-locate-dams-from-space-2a796ac8c04b' target='_blank'>Prototype</a>
+        <span class="light"> {Work in progress} </span>
+      </p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-padding filterDiv filter_dataviz filter_es">
+      <a href='https://charlottegiseleweil.github.io/natureforpeople/index.html#' target='_blank'><img src="images/ipbes.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Mapping Natural Capital</b></p>
+        <p>In the context of UN’s <a href='https://www.ipbes.net/' target='_blank'>IPBES</a>’ Global Assessment of Ecosystem Services, we’ve mapped key <i>Nature’s Contribution’s to People</i>: Pollinators’ contribution to feeding the world, Coastal habitat protecting shorelines from floods and storms and Water quality improved by pollution retention in soils. A publication is in review, the results can be explored on the <a href='https://charlottegiseleweil.github.io/natureforpeople/index.html#' target='_blank'>viewer’s prototype</a>.
+      </p>
+      </div>
+    </div>
+
+  
+  <!-- Second Photo Grid
+  <div class="w3-row-padding w3-margin-bottom filterDiv natcaps webmaps">-->
+    <div class="w3-third w3-container w3-margin-bottom w3-padding filterDiv filter_dataviz filter_es">
+    <a href='https://charlottegiseleweil.github.io/GreenGrowth/src/' target='_blank'><img src="images/gg.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Green Growth around the World</b></p>
+        <p>Mainstreaming finance and policy mechanisms from around the world, this book gathers case studies of Green Growth that works. To explore my figures & illustrations, get the book or discover it in this <a href='https://charlottegiseleweil.github.io/GreenGrowth/src/' target='_blank'>interactive map of examples. </a></p>
+      </div>
+    </div>
+
+
+    <div class="w3-third w3-container w3-padding filterDiv filter_dataviz filter_es">
+      <a href='https://viz.naturalcapitalproject.org' target='_blank'><img src="images/viz.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Natural Capital Data Visualization</b></p>
+        <p>To support communication of complex ecosystem services datasets, I built, contribute to and maintain <a href='https://viz.naturalcapitalproject.org' target='_blank'>viz.naturalcapitalproject.org</a>, including a <a href='http://www.charlotteweil.fr/masterthesis/toolbox.html' target='_blank'>guidance document </a>.
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-padding filterDiv filter_community">
+      <a href='volunteering' target='_blank'><img src="images/lausanne.jpg" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Volunteering</b></p>
+        <p>Sustainability groups, climate marches, scientific expedition on marine plastic pollution, sustainable tourism organisations… In a previous life, I was a better person and a climate activist.
+          <!-- Click to see photos & cool memories of organisations I’ve led or contributed to :)--> 
+        </p>
+      </div>
+    </div>
+
+
+  <!-- Third Examples Row 
+  <div class="w3-row-padding w3-margin-bottom filterDiv natcaps webmaps invest">--> 
+    <div class="w3-third w3-container w3-margin-bottom w3-padding filterDiv filter_es filter_ai">
+      <a href='' target='_blank'><img src="images/futurefood.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Forecasting Future Food Sufficiency</b></p>
+        <p>Using machine learning to predict crop yields in 2050, we explore future caloric sufficiency under scenarios of climate and societal changes.
+          <span class="light"> {Work in progress} </span>
+        </p>
+      </div>
+      </div>
+
+    <div class="w3-third w3-container w3-margin-bottom w3-padding filterDiv filter_dataviz filter_es">
+      <a href='https://charlottegiseleweil.github.io/webviz_natcap/index.html' target='_blank'><img src="images/tana.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Tana’s Multi-Objective Decision Tool</b></p>
+        <p>In Nairobi, Kenya, <a href='https://charlottegiseleweil.github.io/webviz_natcap/intro.html' target='_blank'>the Upper-Tana Water Fund</a> has a triple objective: (1) to maximize water yield serving the city's water supply and hydropower needs, (2) to minimize sediment export to streams which decrease water quality, as well as (3) soil erosion which reduces agricultural productivity. Understanding and visualizing the trade-offs is key to a optimize between competing objectives.
+      </p>
+      </div>
+    </div>
+
+
+    <div class="w3-third w3-container w3-padding filterDiv filter_community">
+      <a href='' target='_blank'><img src="images/circo.jpg" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Circus</b></p>
+        <p>Oh, there's that too.
+        </p>
+      </div>
+    </div>
+
+  
+
+
+
+
+
+
+<hr><hr><hr><hr><hr><hr><hr><hr>
+<hr><hr><hr><hr><hr><hr><hr><hr>
+
+
+
+
+
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="press">
+    <h1><b>Press & Publications</b></h1>
+
+    <div class="w3-third">   
+      <h2> Publications </h2>
+      <h6>Peer-reviewed literature</h6>
+        <li> <a target="_blank" href="http://www.bioone.org/doi/full/10.2984/71.4.2">Cost-Effectiveness of Restoration in Hawaii</a> </li>
+        <!--<li>Science (in review)</li>-->
+
+      <h6>White papers</h6>
+        <li><a href='http://viz.naturalcapitalproject.org/#toolbox' target='_blank'>A guide to Natural Capital Data Visualization</a></li>
+
+
+      <h6> Books </h6>
+        <li>Green Growth That Works (Illustrations) </li>
+        <li><a href='https://www.eyrolles.com/Loisirs/Livre/vers-un-nouvel-eco-paysagisme-phytorestore-9782916977287/' target='_blank'>Phytorestore</a>  (translations)</li>
+
+      <h6>Blog posts</h6>
+        <li><a href='https://medium.com/@charlotteweil/can-we-locate-dams-from-space-2a796ac8c04b' target='_blank'>Can we locate dams from Space?</a></li>
+        <li><a href='https://medium.com/@charlotteweil/feelings-from-leverage-points-2019-30832429f64f' target='_blank'>Feelings from Leverage Points 2019</a></li>
+        <li><a href='https://medium.com/@charlotteweil/biodiversity-collapse-happening-now-ipbes-report-digest-c80943c6438a' target='_blank'>Biodiversity collapse (IPBES’ report digest)</a></li>
+
+    </div> <!-- END PUBLICATIONS -->
+
+    <div class="w3-third">
+      <h2> Press </h2>
+      <ul> 
             <li> <a target="_blank" href="https://developpement-durable.epfl.ch/page-151828-fr.html">EPFL Sustainability Contest Winner</a> </li> 
             <!-- (menu déroulant) : -->
-            <li><div class="dropdown">
-              <button class="dropbtn">more ...</button>
-                <div class="dropdown-content">
-                  <a href="https://www.letemps.ch/economie/credit-suisse-cree-une-tirelire-numerique-enfants-partir-7-ans">A Design Thinking Project that made it to the market</a>
-                  <a href="http://tree.epfl.ch/?page_id=698">Students for Climate: Events & March for Climate</a>
-                  <a href="http://tree.epfl.ch/?page_id=1180">Students for Climate: COP 21 blog</a>
-                  <a target="_blank" href="https://actu.epfl.ch/news/trois-projets-d-etudiants-recompenses-par-le-prix-/"> News: EPFL Sustainability Prize</a>
-                </div>
-              </div> 
-            </li>
-            </ul>
+            <li><a href="https://www.letemps.ch/economie/credit-suisse-cree-une-tirelire-numerique-enfants-partir-7-ans">Invented a product that made it to the market</a></li>
+            <li><a href="http://tree.epfl.ch/?page_id=698">Students for Climate: Events & March for Climate</a></li>
+            <li><a href="http://tree.epfl.ch/?page_id=1180">Students for Climate: COP 21 blog</a></li>
+            <li><a target="_blank" href="https://actu.epfl.ch/news/trois-projets-d-etudiants-recompenses-par-le-prix-/"> News: EPFL Sustainability Prize</a></li>
+        </ul>
+    </div> <!-- END PRESS -->
 
-          <div class="divider grey darken-2"></div>
-        
-          <h3 style="text-align: center">
+    <div class="w3-third" style="max-height: 50vh; overflow: scroll;">
+      <!--<h2> Social media </h2>-->
+        <a class="twitter-timeline" href="https://twitter.com/charlotte_weil?ref_src=twsrc%5Etfw">Tweets by charlotte_weil</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div> <!-- END Social Media -->
 
-            <i class="material-icons">build</i>
-             Website in renovation    <i class="material-icons">build</i> 
-          </h3>
-          
+</div>
 
-        </div> 
-      </div>
-      <!-- end Press -->
-    </div> <!-- end row center -->
 
-    </div> <!-- close section -->
-    </div> <!-- close container -->
+
+
+<hr><hr><hr><hr><hr><hr>
+
+<div class="container w3-padding-large">
+
+
+  <h2 id='where'>Where I work(ed)</h2>
     
+    <p> Currently based in San Fransisco</p>
 
+    <img src="images/sf_planet.png" style="width:100vh;">
+    <br><br>
 
+    <!-- Map Where I work(ed) -->
+    <div class="row" style="width:100vh; height: 50vh;">
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1KPY_eNtTIcZ-NmuLHl-W5jhcbOAt-j8P&ll=33.8373%2C8.90522&z=2"     width="100%" height="100%"></iframe>
+    </div>
+    <!--End Map Where I work(ed) -->  
+</div>
 
-
+<hr><hr>
 
   <!-- Logos -->
-  <div class="container" name="Logos">
-  <div class="row">
-        <div class="col s3"> <a target="_blank" href="http://www.naturalcapitalproject.org/"><img class="logo responsive-img" src="images/natcap.jpg" width="130px"></a></div>
-        <div class="col s3"> <a target="_blank" href="https://www.epfl.ch/"><img class="logo responsive-img" src="images/epfl.jpg"></a></div>
-        <div class="col s3"> <a target="_blank" href="https://www.stanford.edu/"><img class="logo responsive-img" src="images/stanford.png"></a></div>
-        <div class="col s3"> <a target="_blank" href="https://woods.stanford.edu/"><img class="logo responsive-img" src="images/woods.jpg"></a></div>
-        <!--<div class="col s2"> <img class="logo responsive-img" src="images/WWF.jpg"></div>
-        <div class="col s2"> <img class="logo responsive-img" src="images/tnc.jpg"></div>-->
-    </div>
-  </div> <!-- close Logos -->
+  <div class="container w3-row-padding" name="Logos">
+        <div class="w3-quarter"> <a target="_blank" href="http://www.naturalcapitalproject.org/"><img class="logo responsive-img" src="images/natcap.jpg" height="100px"></a></div>
+        <div class="w3-quarter"> <a target="_blank" href="https://www.epfl.ch/"><img class="logo responsive-img" src="images/epfl.jpg" height="100px"></a></div>
+        <div class="w3-quarter"> <a target="_blank" href="https://www.stanford.edu/"><img class="logo responsive-img" src="images/stanford.png" height="100px"></a></div>
+        <div class="w3-quarter"> <a target="_blank" href="https://woods.stanford.edu/"><img class="logo responsive-img" src="images/woods.jpg" height="80px"></a></div>
+  </div>
+  <!-- close Logos -->
+
+
+<hr><hr>
+  
+  <div class="w3-black w3-center w3-padding-24">Visit <a href="https://naturalcapitalproject.stanford.edu/" title="footer" target="_blank" class="w3-hover-opacity">naturalcapitalproject.stanford.edu</a></div>
+
+<!-- End page content -->
+</div>
+
+<script src="js/w3main.js"></script>
+<script src="js/main.js"></script>
 
 
 
-
-
-
-
-
-    <!-- jQuery -->    
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
-    <!-- Materialize javascript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-
-    <!-- My javascript -->
-    <script src="js/script.js"></script>
-  </body>
-
-
+</body>
 </html>
