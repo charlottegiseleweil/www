@@ -35,8 +35,8 @@
     <p class="w3-text-grey">Isaac Newton.</p>-->
   </div>
   <div class="w3-bar-block">
-    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
-    <a href="#press" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-book fa-fw w3-margin-right"></i>PRESS & PUBLICATIONS </a> 
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a>
+    <a href="#press" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-book fa-fw w3-margin-right"></i>PRESS & PUBLICATIONS </a>
     <a href="#where" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-globe fa-fw w3-margin-right"></i>WHERE I WORK(ED)</a>
   </div>
 </nav>
@@ -62,7 +62,7 @@
     <div class="w3-container">
     <h1><b>Featured Projects</b></h1>
     <div class="w3-section w3-bottombar w3-padding-16">
-      <span class="w3-margin-right">Filter:</span> 
+      <span class="w3-margin-right">Filter:</span>
       <button class="w3-button w3-black" onclick="filterSelection('all')">ALL</button>
       <button class="w3-button w3-white" onclick="filterSelection('filter_dataviz')"><i class="fa fa-photo w3-margin-right"></i>Data viz</button>
       <button class="w3-button w3-white w3-hide-small" onclick="filterSelection('filter_ai')"><i class="fa fa-cog w3-margin-right"></i>AI</button>
@@ -80,12 +80,42 @@
       <a href='http://viz.naturalcapitalproject.stanford.edu/pro-agua' target='_blank'><img src="/images/amazon.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
       <p><b>Natural Resilience in the Amazon</b></p>
-        <p>Floods and illegal mining affect the tri-national Amazonian region of Madre-de-dios-Acre-Pando where Brasil, Perú and Bolivia meet. With spatial data modeling of ecosystem services, we inform smart and sustainable spatial planning.  <a href='http://viz.naturalcapitalproject.stanford.edu/pro-agua/' target='_blank'>Explore interactively</a> future scenarios, mining expansion and ecosystem services assessment.
+        <p>Floods and illegal mining affect the tri-national Amazonian region of Madre-de-dios-Acre-Pando where Brasil, Perú and Bolivia meet.
+          With spatial data modeling of ecosystem services, we inform smart and sustainable spatial planning.
+           <a href='http://viz.naturalcapitalproject.stanford.edu/pro-agua/' target='_blank'>Explore interactively</a> future scenarios,
+           mining expansion and ecosystem services assessment - and read the
+           <a href='https://naturalcapitalproject.stanford.edu/sites/g/files/sbiybj9321/f/publications/libro-agua_final_final.pdf' target='_blank'>book </a>(Spanish).
+
       </p>
       </div>
     </div>
 
-    <div class="w3-third w3-container w3-padding filterDiv filter_ai">
+    <div class="w3-third w3-container w3-margin-bottom w3-padding filterDiv filter_dataviz filter_es">
+    <a href='https://charlottegiseleweil.github.io/GreenGrowth/src/' target='_blank'><img src="images/gg.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Green Growth around the World</b></p>
+        <p>Mainstreaming finance and policy mechanisms from around the world, this book gathers case studies of Green Growth that works.
+           <a href="https://islandpress.org/books/green-growth-works" target='_blank'>Get the book</a> or discover the stories through <a href='https://charlottegiseleweil.github.io/GreenGrowth/src/' target='_blank'>interactive map of examples. </a></p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-padding filterDiv filter_dataviz filter_es">
+      <a href='https://charlottegiseleweil.github.io/natureforpeople/index.html#' target='_blank'><img src="images/ipbes.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Mapping Natural Capital</b></p>
+        <p>In the context of UN’s <a href='https://www.ipbes.net/' target='_blank'>IPBES</a>’ Global Assessment of Ecosystem Services, we’ve mapped key <i>Nature’s Contribution’s to People</i> : Pollinators’ contribution to feeding the world,
+          Coastal habitat protecting shorelines from floods and storms and Water quality improved by pollution retention in soils.
+          Read the <a href='https://www.science.org/doi/10.1126/science.aaw3372' target='_blank'>paper</a> and explore results on the <a href='http://viz.naturalcapitalproject.stanford.edu/ipbes/' target='_blank'>viewer</a>.
+      </p>
+      </div>
+    </div>
+
+
+
+  <!-- Second Photo Grid
+  <div class="w3-row-padding w3-margin-bottom filterDiv natcaps webmaps">-->
+
+<div class="w3-third w3-container w3-padding filterDiv filter_ai">
       <a href='https://medium.com/@charlotteweil/can-we-locate-dams-from-space-2a796ac8c04b' target='_blank'><img src="images/dams.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <p><b>Locating Dams from Space</b></p>
@@ -95,48 +125,34 @@
       </div>
     </div>
 
-    <div class="w3-third w3-container w3-padding filterDiv filter_dataviz filter_es">
-      <a href='https://charlottegiseleweil.github.io/natureforpeople/index.html#' target='_blank'><img src="images/ipbes.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
+    <div class="w3-third w3-container w3-padding filterDiv filter_ai filter_es">
+      <img src="images/carbon.png" alt="Image" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Mapping Natural Capital</b></p>
-        <p>In the context of UN’s <a href='https://www.ipbes.net/' target='_blank'>IPBES</a>’ Global Assessment of Ecosystem Services, we’ve mapped key <i>Nature’s Contribution’s to People</i>: Pollinators’ contribution to feeding the world, Coastal habitat protecting shorelines from floods and storms and Water quality improved by pollution retention in soils. A publication is in review, the results can be explored on the <a href='http://viz.naturalcapitalproject.stanford.edu/ipbes/' target='_blank'>viewer</a>.
-      </p>
-      </div>
-    </div>
-
-  
-  <!-- Second Photo Grid
-  <div class="w3-row-padding w3-margin-bottom filterDiv natcaps webmaps">-->
-    <div class="w3-third w3-container w3-margin-bottom w3-padding filterDiv filter_dataviz filter_es">
-    <a href='https://charlottegiseleweil.github.io/GreenGrowth/src/' target='_blank'><img src="images/gg.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <p><b>Green Growth around the World</b></p>
-        <p>Mainstreaming finance and policy mechanisms from around the world, this book gathers case studies of Green Growth that works. To explore my figures & illustrations, get the book or discover it in this <a href='https://charlottegiseleweil.github.io/GreenGrowth/src/' target='_blank'>interactive map of examples. </a></p>
+        <p><b>Forest Carbon Storage Modeling</b></p>
+        <p>Carbon storage is on average 25% lower in tropical forest edges than interiors, yet we don't fully understand why. Machine learning allow us to investigate a broader set of possible drivers - both anthropogenic and natural - at a finer spatial resolution than ever done before, informing how to stop this degradation.
+          <span class="light"> {Paper in the works} </span>
+        </p>
       </div>
     </div>
 
 
-    <div class="w3-third w3-container w3-padding filterDiv filter_dataviz filter_es">
-      <a href='https://viz.naturalcapitalproject.stanford.edu' target='_blank'><img src="images/viz.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <p><b>Natural Capital Data Visualization</b></p>
-        <p><a href='https://viz.naturalcapitalproject.stanford.edu' target='_blank'>NatCap's Visualization Gallery</a>! Particularly proud to have contributed a <a href='http://www.charlotteweil.fr/masterthesis/toolbox.html' target='_blank'>strategic guide</a> to communicate Ecosystem Services data and a <a href='http://viz.naturalcapitalproject.stanford.edu/#viewerTemp' target='_blank'>viewerTemplate for webmapping</a>!. And always reflecting <a href='https://www.techrxiv.org/articles/On_the_usefulness_of_map-based_dashboards_for_decision_making/12738683' target='_blank'>on the usefulness of webmaps for decision-making</a>...
-      </div>
-    </div>
 
     <div class="w3-third w3-container w3-margin-bottom w3-padding filterDiv filter_es filter_ai">
       <a href='' target='_blank'><img src="images/futurefood.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <p><b>Forecasting Future Food Sufficiency</b></p>
-        <p>Using machine learning to predict crop yields in 2050, we explore future caloric sufficiency under scenarios of climate and societal changes.</p><p>
+        <p>Using machine learning to predict crop yields in 2050, we explore future caloric sufficiency under scenarios of
+          climate and societal changes.</p> Read
+          <a href='https://doi.org/10.21203/rs.3.rs-135121/v1' target='_blank'>the preprint</a>.
+          <p>
           <span class="light"> {Paper in review} </span>
         </p>
       </div>
   </div>
 
 
-  <!-- 3rd Row 
-  <div class="w3-row-padding w3-margin-bottom filterDiv natcaps webmaps invest">--> 
+  <!-- 3rd Row
+  <div class="w3-row-padding w3-margin-bottom filterDiv natcaps webmaps invest">-->
 
 
     <div class="w3-third w3-container w3-margin-bottom w3-padding filterDiv filter_dataviz filter_community filter_es">
@@ -147,18 +163,18 @@
       </div>
     </div>
 
- <div class="w3-third w3-container w3-padding filterDiv filter_ai filter_es">
-      <img src="images/carbon.png" alt="Image" style="width:100%" class="w3-hover-opacity">
+
+    <div class="w3-third w3-container w3-padding filterDiv filter_dataviz filter_es">
+      <a href='https://viz.naturalcapitalproject.stanford.edu' target='_blank'><img src="images/viz.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
-        <p><b>Forest Carbon Sotrage Modeling</b></p>
-        <p>Carbon storage is on average 25% lower in tropical forest edges than interiors, yet we don't fully understand why. Machine learning allow us to investigate a broader set of possible drivers - both anthropogenic and natural - at a finer spatial resolution than ever done before, informing how to stop this degradation.
-          <span class="light"> {Paper in the works} </span>
-        </p>
+        <p><b>Natural Capital Data Visualization</b></p>
+        <p><a href='https://viz.naturalcapitalproject.stanford.edu' target='_blank'>NatCap's Visualization Gallery</a>!
+          Particularly proud to have contributed a <a href='http://www.charlotteweil.fr/masterthesis/toolbox.html' target='_blank'>strategic guide</a> to communicate Ecosystem Services data
+          and a <a href='http://viz.naturalcapitalproject.stanford.edu/#viewerTemp' target='_blank'>viewerTemplate for webmapping</a>. And always reflecting <a href='https://www.techrxiv.org/articles/On_the_usefulness_of_map-based_dashboards_for_decision_making/12738683' target='_blank'>on the usefulness of webmaps for decision-making</a>...
       </div>
     </div>
 
 
-  
     <div class="w3-third w3-container w3-margin-bottom w3-padding filterDiv filter_dataviz filter_es">
       <a href='https://charlottegiseleweil.github.io/webviz_natcap/index.html' target='_blank'><img src="images/tana.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
@@ -168,9 +184,9 @@
       </div>
     </div>
 
-  
-  <!-- 4th Row 
-  <div class="w3-row-padding w3-margin-bottom filterDiv natcaps webmaps invest">--> 
+
+  <!-- 4th Row
+  <div class="w3-row-padding w3-margin-bottom filterDiv natcaps webmaps invest">-->
 
   <div class="w3-third w3-container w3-padding filterDiv filter_community filter_es filter_dataviz">
       <a href='http://viz.naturalcapitalproject.stanford.edu/gobiTraining/#/'target='_blank'><img src="images/mongolia.png" alt="Image" style="width:100%" class="w3-hover-opacity"></a>
@@ -186,7 +202,7 @@
       <div class="w3-container w3-white">
         <p><b>Volunteering</b></p>
         <p>Sustainability groups, climate marches, scientific expedition on marine plastic pollution, sustainable tourism organisations… In a previous life, I was a better person and a climate activist.
-          <!-- Click to see photos & cool memories of organisations I’ve led or contributed to :)--> 
+          <!-- Click to see photos & cool memories of organisations I’ve led or contributed to :)-->
         </p>
       </div>
     </div>
@@ -216,40 +232,43 @@
   <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="press">
     <h1><b>Press & Publications</b></h1>
 
-    <div class="w3-twothird">   
-      <h2> Publications </h2>
+    <div class="w3-twothird">
+      <h2> Selected Publications </h2>
       <h6>Peer-reviewed</h6>
-        <li> <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S2211912420300134"> Trade and food system resilience. </a>Global Food Security, 2020. </li>
         <li> <a target="_blank" href="https://science.sciencemag.org/content/366/6462/255/"> Global modeling of nature’s contributions to people. </a>Science, 2019. </li>
-        <li> <a target="_blank" href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/606510">Detecting Dams with Satellite Imagery and Deep Learning. </a>AGU, 2019. </li>
-        <li> <a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2018AGUFM.B53A..01C/abstract">High Resolution Ecosystem Services Modeling for the IPBES. </a>AGU, 2019. </li>
+        <li> <a target="_blank" href="https://doi.org/10.21203/rs.3.rs-135121/v1"> Resilience of food sufficiency to climate change</a>. Preprint, 2020. </li>
+        <li> <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S2211912420300134"> Trade and food system resilience. </a>Global Food Security, 2020. </li>
+        <li> <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S2211912420301401"> Food system resilience at farm-scale. </a>Global Food Security, 2021. </li>
+
+
         <li> <a target="_blank" href="http://www.bioone.org/doi/full/10.2984/71.4.2">Cost-Effectiveness of Restoration in Hawaii. </a>Pacific science, 2017. </li>
         <li> <a target="_blank" href="https://scholar.google.com/citations?user=ACLemJgAAAAJ&hl=en&oi=ao">More</a></li>
         <!--<li>Science (in review)</li>-->
 
-      <h6>White papers</h6>
-        <li><a href='http://viz.naturalcapitalproject.stanford.edu/#toolbox' target='_blank'>A guide to Natural Capital Data Visualization. </a>The Natural Capital Project, 2017.</li>
+      <h6> Books</h6>
+        <li><a href='https://naturalcapitalproject.stanford.edu/sites/g/files/sbiybj9321/f/publications/libro-agua_final_final.pdf' target='_blank'>PRO Agua: Resiliencia en la Amazonía</a>  (Contributing author, GIS Lead)</li>
+        <li><a href='https://islandpress.org/books/green-growth-works' target='_blank'>Green Growth That Works</a> (Contributing author, figures) </li>
+        <li><a href='https://www.eyrolles.com/Loisirs/Livre/vers-un-nouvel-eco-paysagisme-phytorestore-9782916977287/' target='_blank'>Phytorestore</a>  (Contributing author, translations)</li>
 
-
-      <h6> Books </h6>
-        <li><a href='https://islandpress.org/books/green-growth-works' target='_blank'>Green Growth That Works</a> (Figures) </li>
-        <li><a href='https://www.eyrolles.com/Loisirs/Livre/vers-un-nouvel-eco-paysagisme-phytorestore-9782916977287/' target='_blank'>Phytorestore</a>  (Translations)</li>
 
       <h6>Blog posts</h6>
         <li><a href='https://medium.com/@charlotteweil' target='_blank'>Read me on Medium </a></li>
-        <li><a href='https://theconversation.com/profiles/charlotte-weil-862962/articles' target='_blank'>Read me on The Conversation </a></li>      
+        <li><a href='https://theconversation.com/profiles/charlotte-weil-862962/articles' target='_blank'>Read me on The Conversation </a></li>
         <!--<li><a href='https://medium.com/@charlotteweil/can-we-locate-dams-from-space-2a796ac8c04b' target='_blank'>Can we locate dams from Space?</a></li>
         <li><a href='https://medium.com/@charlotteweil/feelings-from-leverage-points-2019-30832429f64f' target='_blank'>Feelings from Leverage Points 2019</a></li>
         <li><a href='https://medium.com/@charlotteweil/biodiversity-collapse-happening-now-ipbes-report-digest-c80943c6438a' target='_blank'>Biodiversity collapse (IPBES’ report digest)</a></li>-->
-
+     <h6>White papers & Conferences</h6>
+        <li><a href='http://viz.naturalcapitalproject.stanford.edu/#toolbox' target='_blank'>A guide to Natural Capital Data Visualization. </a>The Natural Capital Project, 2017.</li>
+        <li> <a target="_blank" href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/606510">Detecting Dams with Satellite Imagery and Deep Learning. </a>AGU, 2019. </li>
+        <li> <a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2018AGUFM.B53A..01C/abstract">High Resolution Ecosystem Services Modeling for the IPBES. </a>AGU, 2019. </li>
     </div> <!-- END PUBLICATIONS -->
 
     <!-- PRESS
     <div class="w3-third">
       <h2> Press </h2>
-      <ul> 
-            <li> <a target="_blank" href="https://developpement-durable.epfl.ch/page-151828-fr.html">EPFL Sustainability Contest Winner</a> </li> 
-            
+      <ul>
+            <li> <a target="_blank" href="https://developpement-durable.epfl.ch/page-151828-fr.html">EPFL Sustainability Contest Winner</a> </li>
+
             <li><a href="https://www.letemps.ch/economie/credit-suisse-cree-une-tirelire-numerique-enfants-partir-7-ans">Invented a product that made it to the market</a></li>
             <li><a href="http://tree.epfl.ch/?page_id=698">Students for Climate: Events & March for Climate</a></li>
             <li><a href="http://tree.epfl.ch/?page_id=1180">Students for Climate: COP 21 blog</a></li>
@@ -273,15 +292,19 @@
 
 
   <h2 id='where'>Where I work(ed)</h2>
-    
-    <p> Since Fall 2020 : Lausanne, Switerland </p>
-    <p> ENAC-IT Data Science, École Polytechnique Fédérale de Lausanne </p>
+<br>
+    <h4> Since Fall 2020 : Lausanne, Switzerland </h4>
+    <p>
+      <a href="http://enac-it4r.epfl.ch/" target="_blank" > ENAC-IT4Research</a>
+      , École Polytechnique Fédérale de Lausanne </p>
 
     <img src="images/lausanne.png" style="width:100vh;">
     <br><br>
 
-    <p> 2016 - 2020 : San Francisco, California </p>
-    <p> The Natural Capital Project, Stanford University </p>
+    <h4> 2016 - 2020 : San Francisco, California </h4>
+     <p>
+       <a href="https://naturalcapitalproject.stanford.edu/" target="_blank" > The Natural Capital Project</a>
+     , Stanford University </p>
 
     <img src="images/sf_planet.png" style="width:100vh;">
     <br><br>
@@ -290,7 +313,7 @@
     <div class="row" style="width:100vh; height: 50vh;">
       <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1KPY_eNtTIcZ-NmuLHl-W5jhcbOAt-j8P&ll=33.8373%2C8.90522&z=2"     width="100%" height="100%"></iframe>
     </div>
-    <!--End Map Where I work(ed) -->  
+    <!--End Map Where I work(ed) -->
 </div>
 
 <hr><hr>
@@ -306,7 +329,7 @@
 
 
 <hr><hr>
-  
+
   <div class="w3-black w3-center w3-padding-24">Data scientist @ <a href="https://naturalcapitalproject.stanford.edu/" title="footer" target="_blank" class="w3-hover-opacity">naturalcapitalproject.stanford.edu</a></div>
 
 <!-- End page content -->
